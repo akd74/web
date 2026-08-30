@@ -1,0 +1,26 @@
+{
+  "name": "myweb",
+  "version": "1.0.0",
+  "description": "A beautiful and elegant static website with modern design and smooth animations",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server"
+  },
+  "keywords": [
+    "website",
+    "elegant",
+    "design",
+    "animations",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/myweb.git"
+  },
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  }
+}
