@@ -1,24 +1,24 @@
 {
-  "name": "myweb",
-  "version": "1.0.0",
-  "description": "A beautiful and elegant static website with modern design and smooth animations",
+  "name": "akd74-web",
+  "version": "2.0.0",
+  "description": "akd74's personal website — zero-build static site with dark/light themes, bilingual ZH/EN support, and responsive design",
   "main": "index.html",
   "scripts": {
     "start": "python -m http.server 8000",
-    "serve": "npx http-server"
+    "serve": "npx http-server -p 8000"
   },
   "keywords": [
-    "website",
-    "elegant",
-    "design",
-    "animations",
-    "responsive"
+    "personal-website",
+    "portfolio",
+    "static-site",
+    "responsive",
+    "dark-mode"
   ],
-  "author": "Your Name",
+  "author": "akd74",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/myweb.git"
+    "url": "https://github.com/akd74/web.git"
   },
   "devDependencies": {
     "http-server": "^14.0.0"

@@ -1,102 +1,36 @@
-# MyWeb
+# akd74/web
 
-A beautiful and elegant static website built with modern HTML, CSS, and JavaScript.
+A clean, modern, zero-build personal website built with semantic HTML5, CSS custom properties, and lightweight vanilla JavaScript.
 
-## 📋 Project Overview
+## Features
 
-This is a responsive, feature-rich static website showcasing elegant design with smooth animations, dynamic gradients, and professional styling.
+- **Dark & Light Themes** — Respects system `prefers-color-scheme` with instant toggle and `localStorage` persistence (no flash on load).
+- **Bilingual Support (中文 / EN)** — Built-in one-click language switch powered by `data-i18n`.
+- **Complete Portfolio Structure** — Sticky glassmorphism navigation with scroll-spy, Hero + interactive profile card, About pillars, Skills, Featured Projects grid, and Contact card with one-click email copy.
+- **Accessible & Responsive** — Semantic landmarks, keyboard focus rings, skip link, mobile navigation drawer, and `prefers-reduced-motion` support.
+- **Zero Dependencies** — No bundler or framework required; works directly on GitHub Pages or any static host.
 
-## ✨ Features
+## Quick Start
 
-- **Responsive Design** - Works seamlessly on all devices
-- **Modern Animations** - Smooth transitions and interactive effects
-- **Elegant Typography** - Premium Google Fonts integration
-- **Dynamic Backgrounds** - Continuous gradient animations
-- **Interactive Elements** - Hover effects and smooth transformations
-- **Clean Code** - Well-organized HTML and CSS
-
-## 🚀 Quick Start
-
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- No installation or build process required!
-
-### Installation
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/myweb.git
-cd myweb
-```
+git clone https://github.com/akd74/web.git
+cd web
 
-2. Open `index.html` in your web browser, or use a local server:
-```bash
-# Using Python 3
+# Run a local server (Python 3)
 python -m http.server 8000
 
-# Using Node.js (with http-server)
-npx http-server
+# Or using Node.js
+npx http-server -p 8000
 ```
 
-3. Visit `http://localhost:8000` in your browser
+Then open `http://localhost:8000` in your browser.
 
-## 📁 Project Structure
+## Customization
 
-```
-myweb/
-├── index.html          # Main HTML file
-├── css/
-│   └── style.css       # Stylesheets
-├── js/
-│   └── script.js       # JavaScript files
-├── assets/             # Images and media
-├── README.md           # Project documentation
-└── .gitignore          # Git ignore rules
-```
+- **Content & Copy**: Edit `index.html` and the `TRANSLATIONS` dictionary in `js/script.js`.
+- **Theme Colors**: Adjust CSS custom properties under `:root` and `[data-theme="light"]` in `css/style.css`.
+- **Projects & Links**: Update the `<article class="card project-card">` blocks and email/GitHub links in `index.html`.
 
-## 🎨 Customization
+## License
 
-### Changing Colors
-Edit the gradient values in the CSS:
-```css
-background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-```
-
-### Modifying Fonts
-Update the Google Fonts import in `index.html`:
-```html
-<link href="https://fonts.googleapis.com/css2?family=YourFont:wght@400;700&display=swap" rel="stylesheet">
-```
-
-### Adding New Sections
-Copy and paste a `<section>` block and customize the content.
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 👨‍💻 Author
-
-Created with ❤️
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-
-## 📞 Contact
-
-For questions or suggestions, please open an issue on GitHub.
-
----
-
-**Made with ✨ and elegant CSS** ✦
+MIT
