@@ -1,5 +1,5 @@
 /**
- * akd74 Personal Website — Interactive Script
+ * Half Personal Website — Interactive Script
  * Features: Theme toggle, ZH/EN i18n toggle, scroll reveal, scroll-spy,
  *           mobile navigation, and one-click email copy.
  */
@@ -131,7 +131,7 @@ function setupLanguageToggle() {
 function applyLanguage(lang, langLabel) {
     const dict = TRANSLATIONS[lang] || TRANSLATIONS.zh;
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-    document.title = lang === 'zh' ? 'akd74 — 个人主页' : 'akd74 — Personal Website';
+    document.title = lang === 'zh' ? 'Half — 个人主页' : 'Half — Personal Website';
     langLabel.textContent = lang === 'zh' ? 'EN' : '中';
 
     document.querySelectorAll('[data-i18n]').forEach((el) => {
